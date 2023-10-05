@@ -1,2 +1,5 @@
 # ByeByeSecret
-Scans your PowerShell for secrets so that you can ByeBye them!
+
+![logo](https://raw.githubusercontent.com/JeroenBL/ByeByeSecret/main/assets/logo.png)
+
+Scans your PowerShell code for secrets so that you can ByeBye them!
