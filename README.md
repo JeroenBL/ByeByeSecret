@@ -2,7 +2,7 @@
 
 ![logo](https://raw.githubusercontent.com/JeroenBL/ByeByeSecret/main/assets/logo.png)
 
-Scans your PowerShell code for secrets so that you can ByeBye them!
+Scans your PowerShell code for secrets so that you can ByeBye :wave: them!
 
 `ByeByeSecret` is a lightweight extension for VSCode that continuously scans your PowerShell code for secrets. It detects whenever you create a variable that holds a secret and alerts you immediately. Currently, only PowerShell is supported.
 
