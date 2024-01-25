@@ -1,16 +1,16 @@
 # ByeByeSecret
 
-![logo](https://raw.githubusercontent.com/JeroenBL/ByeByeSecret/main/assets/logo.png)
-
-Scans your PowerShell code for secrets so that you can ByeBye :wave: them!
-
-`ByeByeSecret` is a lightweight extension for VSCode that continuously scans your PowerShell code for secrets. It detects whenever you create a variable that holds a secret and alerts you immediately. Currently, only PowerShell is supported.
+_ByeByeSecret_ is a VSCode extension that actively scans your PowerShell code for potential secrets by identifying variables that may hold confidential information. It then notifies you with a visual alert.
 
 ## Usage
 
-`ByeByeSecret` continously scans your code for secrets. So you don't need to do anything. However, you can redact your secrets as well.
+_ByeByeSecret_` actively scans your PowerShell code for potential secrets. If a secret is found, _ByeByeSecret_ notifies you with a visual alert. 
 
-To redact (or ByeBye) your secrets:
+### Redacting secrets
+
+If one (or more) _potential_ secrets are found, they can all be redacted with a single command. 
+
+To redact _(or ByeBye)_ your secrets:
 
 1. Open the command palette by clicking on: `View > Command palette` or press: `ctrl+shift+p (cmd+shift+p on mac)`.
 2. Browse to: `ByeByeSecret`.
