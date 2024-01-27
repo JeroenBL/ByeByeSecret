@@ -1,5 +1,9 @@
 # ByeByeSecret
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JeroenBL/ByeByeSecret/main/assets/logo.png" width="500">
+</p>
+
 _ByeByeSecret_ is a VSCode extension that actively scans your PowerShell code for potential secrets by identifying variables that may hold confidential information. It then notifies you with a visual alert.
 
 ## Usage

@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.3 - 27-01-2024
+
+- Removed webPack due to debugging issue's
+
 ## 0.1.2 - 10-10-2023
 
 - Added version check
