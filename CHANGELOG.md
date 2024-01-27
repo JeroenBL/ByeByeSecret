@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.4 - 27-01-2024
+
+- Fixed bug in regex causing the redact option to fail
+
 ## 0.1.3 - 27-01-2024
 
 - Removed webPack due to debugging issue's

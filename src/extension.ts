@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import axios, { AxiosError } from 'axios';
 
 const packageJson = require('../package.json');
-const secretRegex = /(?:password|client(?:id|_id|secret|_secret)|api(?:key|token)|user(?:name|_name)|access_token|token)\s*=\s*['"]?(.*?)['"]?(\s|$)/gmi;
+const secretRegex = /(password|clientid|client_id|clientsecret|client_secret|api(?:key|token)|user(?:name|_name)|access_token|token)\s*=\s*['"]?(.*?)['"]?(\s|$)/gmi;
 let extensionActivated = false;
 
 export async function activate(context: vscode.ExtensionContext) {
